@@ -1,54 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar Buat Formulir</title>
+    <title>Portofolio Saya</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        img{
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        section{
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2{
+            color: #4a90e2;
+        }
+
+        footer{
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    
-    <h1>formulir pendaftaran</h1>
 
-    <form action="">
-       <label for="nism">Nisn</label>
-       <input type="name=nisn" placeholder="Masukan NISN">
-       <br>
-       <label for="nama">nama</label>
-       <input type="text" name="nama" placeholder="Masukan nama">
-       <br>
-       <label for="email">email</label>
-       <input type="text" name="email" placeholder="Masukan EMAIL">
-       <br>
-       <label for="password">password</label>
-       <input type="password" name="password" placeholder="Masukan password">
-       <br>
-       <label for="Telepon">Telepon</label>
-       <input type="tel" name="Telepon" placeholder="Masukan Telepon">
-       <br>
-       <label for="alamat">alamat</label>
-       <textarea name="alamat" id=""rows=10></textarea>
-       <br>
-       <label for="file"> upload file</label>
-       <input type="file" name="file" id="">
-       <br>
-       <label for="tanggal">tanggal</label>
-       <input type="date" name="tanggal" id="">
-       <br>
-       <label for="jenis">jenis kelamin</label>
-       <input type="radio" name="jenis" id="laki laki">
-       <label for="laki laki">laki - laki</label>
-       <input type="radio" name="jenis" id="perempuan">
-       <label for="perempuan">perempuan</label>
-       <br>
+    <!-- bagian header -->
+    <header>
+        <img src="foto.jpg" alt="foto saya">
+        <h1>Rosita Yuniarti</h1>
+        <p>Pelajar | Programmer | Designer</p>
+    </header>
 
-    
-          <option value="laki laki"></option>
-          <option value="perempuan"></option>
-        </select>
-       
+    <!-- tentang saya -->
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah seorang pelajar yang sedang belajar HTML, CSS, dan JavaScript.
+        </p>
+    </section>
 
-       
-   </form>
+    <!-- skill -->
+    <section>
+        <h2>Skill</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- project -->
+    <section>
+        <h2>Project</h2>
+        <p>1. Website Sekolah</p>
+        <p>2. Form Login</p>
+        <p>3. Kalkulator Sederhana</p>
+    </section>
+
+    <!-- kontak -->
+    <section>
+        <h2>Kontak</h2>
+        <p>Sekolah: Smkn 1 gedong tataan</p>
+        <p>Nomor: 083861115548</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Portofolio Saya</p>
+    </footer>
 
 </body>
 </html>
